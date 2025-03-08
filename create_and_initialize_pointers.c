@@ -5,7 +5,7 @@
 petit programme je ne le mets pas dans un .h, mais
 en temps normal (dans un vrai programme), j'aurais placé
 le prototype dans un fichier .h bien entendu */
-
+/*
 void decoupeMinutes(int heures, int minutes);
 
 int main(int argc, char *argv[])
@@ -28,3 +28,10 @@ void decoupeMinutes(int heures, int minutes)
     heures = minutes / 60;  // 90 / 60 = 1
     minutes = minutes % 60; // 90 % 60 = 30
 }
+*/
+
+
+int age = 10;
+int *pointeurSurAge = &age;
+
+printf("%d", pointeurSurAge);
