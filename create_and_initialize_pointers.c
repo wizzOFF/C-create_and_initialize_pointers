@@ -30,8 +30,15 @@ void decoupeMinutes(int heures, int minutes)
 }
 */
 
-
+/*
 int age = 10;
 int *pointeurSurAge = &age;
 
 printf("%d", pointeurSurAge);
+*/
+
+
+int age = 10;
+int *pointeurSurAge = &age;
+
+printf("%d", *pointeurSurAge);
